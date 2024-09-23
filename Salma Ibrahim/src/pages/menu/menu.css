@@ -1,0 +1,146 @@
+.lightMenu {
+    display: none;
+}
+
+.darkMenu {
+    display: none;
+}
+
+
+.lightOpen {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.darkOpen {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(122, 121, 121, 0.5);
+}
+
+.lightClose {
+    display: none;
+
+}
+
+.darkClose {
+    background-color: aqua;
+    display: none;
+}
+
+.MenuStructure {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    background-color: white;
+    width: 50%;
+    position: absolute;
+    top: 70px;
+    left: 25%;
+    padding: 30px;
+}
+
+.CloseMenu {
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 30px;
+}
+
+.lightMenuContent,
+.darkMenuContent {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+
+
+.lightMenuContent a,
+.darkMenuContent a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 13px;
+    font-size: 23px;
+    font-weight: 500;
+    background-color: rgb(241, 241, 240);
+}
+
+.lightMenuContent a:hover {
+    background-color: gainsboro;
+}
+
+.darkMenuContent a:hover {
+    background-color: gainsboro;
+}
+
+
+@media only screen and (max-width: 968px) {
+    .lightMenu {
+        display: block;
+        border: solid 2px rgb(252, 146, 108);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .darkMenu {
+        display: block;
+        border: solid 2px rgb(252, 146, 108);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+    .lightMenu img {
+        width: 20px;
+    }
+
+    .darkMenu img {
+        width: 20px;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .MenuStructure{
+        width: 70%;
+        left: 15%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .lightMenu {
+        width: 25px;
+        height: 25px;
+    }
+
+    .darkMenu {
+        width: 25px;
+        height: 25px;
+    }
+}
