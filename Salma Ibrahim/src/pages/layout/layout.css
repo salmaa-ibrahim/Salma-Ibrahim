@@ -18,19 +18,19 @@
     background-color: white;
     width: 100%;
     height: 50px;
-    padding: 60px 10% 50px 10%;
+    padding: 60px 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     position: fixed;
-    top: 0px;
+    top: 0;
 }
 
 .darkNavbar {
     background-color: #141D2F;
     width: 100%;
     height: 50px;
-    padding: 60px 10% 50px 10%;
+    padding: 60px 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,9 +121,9 @@ li {
 }
 
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1000px) {
     .lightNavbar {
-        padding: 80px 8% 50px 8%;
+        padding: 50px 6%;
     }
 
     .darkNavbar {
@@ -141,11 +141,11 @@ li {
 
 @media only screen and (max-width: 968px) {
     .lightNavbar {
-        padding: 60px;
+        padding: 38px ;
     }
 
     .darkNavbar {
-        padding: 60px;
+        padding: 38px;
     }
 
     ul {
@@ -154,23 +154,27 @@ li {
 
     .lightIcons {
         background-color: rgb(130, 139, 0);
-        width: 14%;
+        width: auto;
+        justify-content: center;
+        column-gap: 10px;
     }
 
     .darkIcons {
         background-color: rgb(130, 139, 0);
-        width: 14%;
+        width: auto;
+        justify-content: center;
+        column-gap: 10px;
     }
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 425px) {
     .lightNavbar {
-        padding: 40px 25px;
+        padding: 38px 25px;
     }
 
     .darkNavbar {
-        padding: 40px 25px;
+        padding: 38px 25px;
     }
 
     .lightLogo a {
@@ -180,31 +184,31 @@ li {
         font-size: 22px;
     }
 
-    .lightIcons {
+    /* .lightIcons {
         width: 24%;
-    }
-    .darkIcons {
+    } */
+    /* .darkIcons {
         width: 24%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 375px) {
-    .lightIcons {
+    /* .lightIcons {
         width: 27%;
-    }
-    .darkIcons {
+    } */
+    /* .darkIcons {
         width: 27%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 320px) {
-    .lightIcons {
+    /* .lightIcons {
         width: 22%;
-    }
+    } */
 
-    .darkIcons {
+    /* .darkIcons {
         width: 22%;
-    }
+    } */
 
     .lightTheme {
         width: 25px;

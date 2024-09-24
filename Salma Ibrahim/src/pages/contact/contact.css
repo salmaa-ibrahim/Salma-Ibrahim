@@ -1,0 +1,44 @@
+#contact{
+    width: 100%;
+    height: 600px;
+    padding: 150px 10%;
+}
+
+.lightContact{
+    background-color: white;
+}
+
+.darkContact{
+    background-color: #141D2F;
+}
+
+.lightContact h1{
+    background-color: rgb(5, 102, 126);
+    height: 400px;
+
+
+}
+.darkContact h1{
+    color: white;
+    background-color: rgb(5, 102, 126);
+    height: 400px;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    #contact{
+        padding: 140px 8%;
+    }
+}
+
+@media only screen and (max-width: 968px) {
+    #contact {
+        padding: 100px 45px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #contact {
+        padding: 120px 66px;
+    }
+}

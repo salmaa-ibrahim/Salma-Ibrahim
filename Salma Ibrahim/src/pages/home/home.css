@@ -1,7 +1,7 @@
 #home{
     /* background-color: blueviolet; */
     width: 100%;
-    height: 1000px;
+    height: 600px;
     padding: 150px 10%;
 }
 
@@ -13,6 +13,18 @@
     background-color: #141D2F;
 }
 
+.lightHome h1{
+    background-color: blueviolet;
+    height: 400px;
+
+}
+.darkHome h1{
+    color: white;
+    background-color: blueviolet;
+    height: 400px;
+
+}
+
 @media only screen and (max-width: 1024px) {
     #home{
         padding: 140px 8%;
@@ -21,12 +33,18 @@
 
 @media only screen and (max-width: 968px) {
     #home {
-        padding: 120px 66px;
+        padding: 100px 45px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #home {
-        padding: 100px 66px;
+        padding: 120px 66px;
     }
+}
+
+
+#aboutDiv{
+    width: 100%;
+    padding: 0;
 }

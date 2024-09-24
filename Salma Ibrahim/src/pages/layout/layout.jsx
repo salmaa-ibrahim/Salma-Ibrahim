@@ -6,7 +6,6 @@ import DrakMoodIcon from "/images/dark.svg";
 import LightMoodIcon from "/images/light.svg";
 import Menu from "../menu/menu";
 
-
 function Layout() {
     //theme
     const theme = useContext(ThemeContext);
@@ -37,13 +36,13 @@ function Layout() {
                             <a href="#about">About</a>
                         </li>
                         <li className={passevedValues.theme + "List"}>
-                            <a href="#experiance">Experiament</a>
+                            <a href="#experiance">Experiance</a>
                         </li>
                         <li className={passevedValues.theme + "List"}>
-                            <a href="#Projects">Projects</a>
+                            <a href="#projects">Projects</a>
                         </li>
                         <li className={passevedValues.theme + "List"}>
-                            <a href="#contacts">Contact</a>
+                            <a href="#contact">Contact</a>
                         </li>
                     </ul>
 
@@ -70,6 +69,7 @@ function Layout() {
             </nav>
 
             <Outlet />
+
         </>
     );
 }
