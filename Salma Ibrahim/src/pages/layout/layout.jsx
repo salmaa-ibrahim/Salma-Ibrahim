@@ -5,7 +5,7 @@ import { ThemeContext } from "../../App";
 import DrakMoodIcon from "/images/dark.svg";
 import LightMoodIcon from "/images/light.svg";
 import Menu from "../menu/menu";
-
+// import { Link } from "react-router-dom";
 function Layout() {
     //theme
     const theme = useContext(ThemeContext);
@@ -30,7 +30,7 @@ function Layout() {
                 <div className={passevedValues.theme + "Icons"}>
                     <ul>
                         <li className={passevedValues.theme + "List"}>
-                            <a href="#home">Home</a>
+                            <a href="/">Home</a>
                         </li>
                         <li className={passevedValues.theme + "List"}>
                             <a href="#about">About</a>
