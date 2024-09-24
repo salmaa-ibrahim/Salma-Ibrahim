@@ -4,7 +4,7 @@ import WhiteMenuIcon from "/images/whiteMenu.svg"
 import exitImage from "../../../public/images/close.svg"
 import { useContext, useState } from "react";
 import { ThemeContext } from '../../App'
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 function Menu() {
     const passevedValues = useContext(ThemeContext)
     const [active, setActive] = useState(true);
@@ -36,11 +36,11 @@ function Menu() {
                         <img src={exitImage} alt="#" onClick={closeItem} />
                     </div>
                     <div className={passevedValues.theme + "MenuContent"}>
-                        <Link to="/" onClick={closeItem}>Home</Link>
-                        <Link to="/about" onClick={closeItem}>About</Link>
-                        <Link to="/experiance" onClick={closeItem}>Experince</Link>
-                        <Link to="/projects" onClick={closeItem}>Projects</Link>
-                        <Link to="/contact" onClick={closeItem}>Contact</Link>
+                        <a href="/" onClick={closeItem}>Home</a>
+                        <a href="#about" onClick={closeItem}>About</a>
+                        <a href="#experiance" onClick={closeItem}>Experince</a>
+                        <a href="#projects" onClick={closeItem}>Projects</a>
+                        <a href="#contact" onClick={closeItem}>Contact</a>
                     </div>
                     </div>
                 </div>
