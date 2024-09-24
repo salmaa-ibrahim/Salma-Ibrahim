@@ -2,8 +2,8 @@ import "./layout.css";
 import { Outlet } from "react-router-dom";
 import { useContext } from "react";
 import { ThemeContext } from "../../App";
-import DrakMoodIcon from "/images/dark.svg";
-import LightMoodIcon from "/images/light.svg";
+import MoonIcon from "/images/moon.svg";
+import SunIcon from "/images/sun.svg";
 import Menu from "../menu/menu";
 // import { Link } from "react-router-dom";
 function Layout() {
@@ -55,12 +55,12 @@ function Layout() {
                             onChange={onHandleChange}
                         />
                         <img
-                            src={DrakMoodIcon}
+                            src={SunIcon}
                             alt="#"
                             className={passevedValues.theme + "Moon"}
                         />
                         <img
-                            src={LightMoodIcon}
+                            src={MoonIcon}
                             alt="#"
                             className={passevedValues.theme + "Sun"}
                         />

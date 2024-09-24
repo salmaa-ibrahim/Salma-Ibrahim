@@ -6,6 +6,17 @@
     display: none;
 }
 
+.lightMenuIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkMenuIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .lightOpen {
     position: fixed;
@@ -95,7 +106,7 @@
 @media only screen and (max-width: 968px) {
     .lightMenu {
         display: block;
-        border: solid 2px rgb(252, 146, 108);
+        border: solid 0.5px #fa9f37;
         border-radius: 50%;
         display: flex;
         align-items: center;
@@ -107,7 +118,7 @@
 
     .darkMenu {
         display: block;
-        border: solid 2px rgb(252, 146, 108);
+        border: solid 0.5px #e6ddb9;
         border-radius: 50%;
         display: flex;
         align-items: center;

@@ -1,7 +1,7 @@
 import "./menu.css"
 import BlackMenuIcon from "/images/menu.svg"
 import WhiteMenuIcon from "/images/whiteMenu.svg"
-import exitImage from "../../../public/images/close.svg"
+import exitImage from "/images/close.svg"
 import { useContext, useState } from "react";
 import { ThemeContext } from '../../App'
 // import { Link } from "react-router-dom";
