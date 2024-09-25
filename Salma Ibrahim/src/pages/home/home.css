@@ -239,7 +239,7 @@
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 300px) {
 
     .lightName {
         font-size: 30px;
