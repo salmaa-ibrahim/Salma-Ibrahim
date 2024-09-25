@@ -223,11 +223,11 @@
     }
 
     .lightName {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .darkName {
-        font-size: 35px;
+        font-size: 30px;
     }
 
     .lightHomeTxt {
@@ -254,11 +254,11 @@
 @media only screen and (max-width: 390px) {
 
     .lightName {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .darkName {
-        font-size: 30px;
+        font-size: 28px;
     }
 
     .lightHomeTxt {
@@ -273,11 +273,11 @@
 @media only screen and (max-width: 300px) {
 
     .lightName {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .darkName {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .lightHomeTxt {
