@@ -29,7 +29,7 @@ function Home() {
                         <a className={passevedValues.theme + "ContactBtn"} href="#contact">Contact me</a>
                     </div>
                     <div className="HomeIcons">
-                        <a href="https://github.com/salmaa-ibrahim">
+                        <a href="https://www.linkedin.com/in/salma-ibrahim-07116a287/">
                             <img className={passevedValues.theme + "Moon"}src={linkedInLogoLightMood} alt="" />
                             <img className={passevedValues.theme + "Sun"}src={linkedInLogoDarkMood} alt="" />
                         </a>
