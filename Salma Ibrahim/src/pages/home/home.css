@@ -1,8 +1,10 @@
 #home{
     /* background-color: blueviolet; */
     width: 100%;
-    height: 600px;
-    padding: 150px 10%;
+    padding: 120px 15% 0px 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .lightHome{
@@ -13,34 +15,183 @@
     background-color: #141D2F;
 }
 
-.lightHome h1{
-    background-color: blueviolet;
-    height: 400px;
+#personalImage{
+    width: 40%;
+}
+
+#personalImage img{
+    width: 100%;
+    border-radius: 20px;
+}
+.homeContent{
+    /* border: solid 1px black; */
+    width: 54.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 25px;
+}
+
+.lightHomeTxt{
+    color: rgb(99, 98, 98);
+    font-size: 25px;
+}
+
+.darkHomeTxt{
+    color: rgb(99, 98, 98);
+    font-size: 25px;
+}
+
+.lightName{
+    font-size: 65px;
+    text-shadow: 2px 2px 5px rgb(192, 191, 191);
 
 }
-.darkHome h1{
+
+.darkName{
+    font-size: 65px;
     color: white;
-    background-color: blueviolet;
-    height: 400px;
-
+    text-shadow: 2px 2px 5px rgb(65, 65, 65);
 }
+
+.homeButtons{
+    height: 45px;
+    /* background-color: wheat; */
+    display: flex;
+    column-gap: 30px;;
+}
+
+.homeButtons a{
+    height: 100%;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: solid 2px #373838;
+    border-radius: 17px;
+    display: flex;
+    align-items: center;
+}
+
+.lightCvBtn{
+    background-color: transparent;
+}
+
+.lightCvBtn:hover{
+    background-color: #373838;
+    color: white;
+}
+
+.darkCvBtn{
+    background-color: transparent;
+    color: white;
+}
+
+.darkCvBtn:hover{
+    background-color: white;
+    color: #373838;
+}
+
+
+.lightContactBtn{
+    background-color: #373838;
+    color: white;
+}
+
+.lightContactBtn:hover{
+    background-color: black;
+}
+
+.darkContactBtn{
+    background-color:white ;
+    color: #141D2F;
+}
+
+.darkContactBtn:hover{
+    background-color: #373838;
+    color: white;
+}
+
+.HomeIcons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.HomeIcons img{
+    width: 35px;
+    height: 35px;
+}
+
+
+
+
+
 
 @media only screen and (max-width: 1024px) {
     #home{
-        padding: 140px 8%;
+        padding: 140px 8% 0px 8%;
     }
+    .lightName{
+        font-size: 55px;
+    }
+    
+    .darkName{
+        font-size: 55px;
+    }
+    
 }
 
 @media only screen and (max-width: 968px) {
     #home {
-        padding: 100px 45px;
+        padding: 100px 45px 0px 45px;
+    }
+    .lightName{
+        font-size: 45px;
+    }
+    .darkName{
+        font-size: 45px;
+    }
+    .lightHomeTxt{
+        font-size: 19px;
+    }
+    .darkHomeTxt{
+        font-size: 19px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #home {
-        padding: 120px 66px;
+        padding: 120px 66px 0px 66px;
+        flex-direction: column;
+        row-gap: 40px;
     }
+    #personalImage{
+        width: 100%;
+    }
+    .homeContent{
+        width: 100%;
+    }
+    .lightName{
+        font-size: 35px;
+    }
+    .darkName{
+        font-size: 35px;
+    }
+    .lightHomeTxt{
+        font-size: 17px;
+    }
+    .darkHomeTxt{
+        font-size: 17px;
+    }
+    .homeButtons{
+        height: 35px;
+        column-gap: 20px;
+    }
+    .homeButtons a{
+        padding: 10px;
+        font-size: 12px;
+    }
+
 }
 
 

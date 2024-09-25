@@ -45,21 +45,7 @@ function Menu() {
                     </div>
                 </div>
             </div>
-
     )
 }
 
 export default Menu
-
-{/* <div className={theme + "menuIcon"}>
-                        <img
-                            src={BlackMenuIcon}
-                            alt="#"
-                            className={theme + "White"}
-                        />
-                        <img
-                            src={WhiteMenuIcon}
-                            alt="#"
-                            className={theme + "Black"}
-                        />
-                    </div> */}

@@ -1,7 +1,7 @@
 #contact{
     width: 100%;
     height: 600px;
-    padding: 150px 10%;
+    padding: 0px 10% 100px 10%;
 }
 
 .lightContact{
@@ -27,18 +27,18 @@
 
 @media only screen and (max-width: 1024px) {
     #contact{
-        padding: 140px 8%;
+        padding: 0px 8% 90px 8%;
     }
 }
 
 @media only screen and (max-width: 968px) {
     #contact {
-        padding: 100px 45px;
+        padding: 0px 45px 70px 45px;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #contact {
-        padding: 120px 66px;
+        padding: 0px 66px 60px 66px;
     }
 }

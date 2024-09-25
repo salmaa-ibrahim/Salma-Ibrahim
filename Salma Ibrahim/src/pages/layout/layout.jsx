@@ -24,13 +24,13 @@ function Layout() {
             <nav className={passevedValues.theme + "Navbar"}>
                 
                 <div className={passevedValues.theme + "Logo"}>
-                    <a href="/">Salma Ibrahim</a>
+                    <a href="#">Salma Ibrahim</a>
                 </div>
 
                 <div className={passevedValues.theme + "Icons"}>
                     <ul>
                         <li className={passevedValues.theme + "List"}>
-                            <a href="/">Home</a>
+                            <a href="#home">Home</a>
                         </li>
                         <li className={passevedValues.theme + "List"}>
                             <a href="#about">About</a>
