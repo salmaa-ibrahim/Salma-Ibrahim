@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    row-gap: 60px;
+    row-gap: 40px;
 }
 
 .darkApp{
@@ -11,15 +11,15 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    row-gap: 60px;
+    row-gap: 40px;
     background-color: #141D2F;
 }
 
 /* @media only screen and (max-width: 768px) {
     .lightApp{
-        padding: 60px;
+        row-gap: 60px;
     }
     .darkApp{
-        padding: 60px;
+        row-gap: 60px;
     }
 } */

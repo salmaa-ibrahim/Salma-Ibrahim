@@ -1,7 +1,9 @@
 #about{
     width: 100%;
-    height: 600px;
     padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
 }
 
 .lightAbout{
@@ -12,18 +14,70 @@
     background-color: #141D2F;
 }
 
-.lightAbout h1{
-    background-color: rgb(44, 187, 16);
-    height: 400px;
-
-
+.aboutTop{
+    width: 100%;
+    /* background-color: salmon; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
 }
-.darkAbout h1{
+
+.aboutTop label{
+    color: #636262;
+    font-size: 20px;
+}
+
+.lightAboutLable , .darkAboutLable{
+    font-size: 40px;
+}
+
+.darkAboutLable{
     color: white;
-    background-color: rgb(44, 187, 16);
-    height: 400px;
-
 }
+
+.aboutCenter{
+    width: 100%;
+    height: 180px;
+    /* background-color: rgb(213, 247, 228); */
+    display: flex;
+    justify-content: space-between;
+}
+
+.AboutCenterDiv{
+    width: 48%;
+    padding: 0px 40px;
+    border: solid 1px #7c7b7b;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.AboutCenterDiv img{
+    width: 45px;
+}
+.darkAboutCenterDivLable{
+color: white;
+}
+
+.lightAboutCenterTxt {
+    color: #636262;
+}
+
+.darkAboutCenterTxt{
+    color: #9c9b9b;
+}
+
+.darkAboutBottom p{
+    color: rgb(235, 235, 230);
+}
+
 
 @media only screen and (max-width: 1024px) {
     #about{
@@ -35,10 +89,28 @@
     #about {
         padding: 0px 45px;
     }
+    .aboutCenter{
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .AboutCenterDiv{
+        width: 90%;
+        border-radius: 15px;
+        padding: 15px 10px;
+    }
+
+    .lightAboutBottom p , .darkAboutBottom p{
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     #about {
-        padding: 0px 66px;
+        padding: 0px 20px;
+    }
+    .lightAboutCenterTxt, .darkAboutCenterTxt{
+        font-size: 12px;
     }
 }
