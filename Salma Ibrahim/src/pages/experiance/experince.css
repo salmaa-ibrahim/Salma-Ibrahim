@@ -140,19 +140,20 @@
 
     .ExperinceContentDiv{
         gap: 20px;
+        justify-content: space-between;
         padding: 20px 0px ;
     }
     .ExperinceIconDiv{
         /* background-color: rgb(82, 59, 173); */
-        width: 84px;
+        width: 90px;
         height: 110px;
         row-gap: 10px;
     }
     
     .IconImg{
         padding: 6px;
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
     
     .EXPIcon{
