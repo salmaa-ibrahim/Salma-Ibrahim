@@ -41,14 +41,15 @@ function Experiance() {
         image: CSS,
         title: "Css",
         level: "Experienced"
+    },
+    {
+        image: Bootstrab,
+        title: "Bootstrab",
+        level: "Basics"
     },{
         image: JS,
         title: "JavaScript",
         level: "Intermediate"
-    },{
-        image: Bootstrab,
-        title: "Bootstrab",
-        level: "Basics"
     },{
         image: Keyboard,
         title: "Writing Speed",

@@ -87,8 +87,8 @@
     flex-direction: column;
     align-items: center;
     row-gap: 20px;
-    /* width: 115px; */
-    /* height: 150px; */
+    width: 150px;
+    height: 150px;
 }
 
 .IconImg{
@@ -137,4 +137,41 @@
     #experince {
         padding: 0px 20px;
     }
+    .ExperinceContentDiv{
+        row-gap: 20px;
+    }
+    .ExperinceIconDiv{
+        /* background-color: rgb(82, 59, 173); */
+        width: 84px;
+        height: 110px;
+        row-gap: 10px;
+    }
+    
+    .IconImg{
+        padding: 6px;
+        width: 30px;
+        height: 30px;
+    }
+    
+    .EXPIcon{
+        row-gap: 6px;
+        text-align: center;
+    }
+
+    .lightIconLable{
+        font-size: 14px;
+    }
+    
+    .darkIconLable{
+        font-size: 14px;
+    }
+    
+    .lightIconLable2{
+        font-size: 14px;
+    }
+    
+    .darkIconLable2{
+        font-size: 14px;
+    }
+    
 }
