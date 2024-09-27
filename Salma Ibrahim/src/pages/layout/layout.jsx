@@ -36,7 +36,7 @@ function Layout() {
                             <a href="#about">About</a>
                         </li>
                         <li className={passevedValues.theme + "List"}>
-                            <a href="#experince">Experiance</a>
+                            <a href="#experince">Experince</a>
                         </li>
                         <li className={passevedValues.theme + "List"}>
                             <a href="#projects">Projects</a>
