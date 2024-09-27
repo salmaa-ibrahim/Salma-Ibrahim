@@ -1,10 +1,10 @@
 import "./about.css"
 import { useContext } from "react";
 import { ThemeContext } from '../../App'
-import certificateLight from "../../../public/images/certificate-black.svg"
-import certificateDark from "../../../public/images/certificate-white.svg"
-import educationLight from "../../../public/images/graduation-B.svg"
-import educationDark from "../../../public/images/education-white.svg"
+import certificateLight from "/images/certificate-black.svg"
+import certificateDark from "/images/certificate-white.svg"
+import educationLight from "/images/graduation-B.svg"
+import educationDark from "/images/education-white.svg"
 function About() {
     const passevedValues = useContext(ThemeContext)
     const About = [
@@ -28,12 +28,12 @@ function About() {
     return (
         <>
             <div id="about" className={passevedValues.theme + "About"}>
-                <div className="aboutTop">
+                <div className="Top">
                     <label>Get To Know More</label>
                     <h1 className={passevedValues.theme + "AboutLable"}>About Me</h1>
                 </div>
 
-                <div className="aboutCenter">
+                <div className="aboutContent">
                     {About.map((prop) => {
                         return (
                             <>
@@ -48,7 +48,7 @@ function About() {
                         )
                     })}
                 </div>
-                <div className={passevedValues.theme + "AboutBottom"}>
+                <div className={passevedValues.theme + "AboutMe"}>
                     <p>Hi, I am a front-end developer working on projects using React,
                     JavaScript, HTML, CSS and Bootstrap. Currently I am a freelance
                     r and looking for a front-end job in a reputable organization
