@@ -70,6 +70,10 @@ function Layout() {
 
             <Outlet />
 
+            <div className="Footer">
+            <p>Copyright © 2023 Salma Ibrahim. All Rights Reserved.</p>
+            </div>
+
         </>
     );
 }

@@ -1,7 +1,10 @@
 #contact{
     width: 100%;
-    height: 600px;
-    padding: 0px 10% 100px 10%;
+    padding: 0px 10% 20px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
 }
 
 .lightContact{
@@ -12,33 +15,67 @@
     background-color: #141D2F;
 }
 
-.lightContact h1{
-    background-color: rgb(5, 102, 126);
-    height: 400px;
-
-
+.contactContent{
+    width:66%;
+    padding: 25px;
+    border: solid 2px gray;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content: space-between;
+    gap: 26px;
 }
-.darkContact h1{
+
+.contactLink{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.darkContactLink{
     color: white;
-    background-color: rgb(5, 102, 126);
-    height: 400px;
-
 }
 
-@media only screen and (max-width: 1024px) {
+.lightContactLink:hover{
+    color: #939394;
+}
+
+.darkContactLink:hover{
+    color: #5f5f61;
+}
+
+@media only screen and (max-width: 1300px) {
     #contact{
-        padding: 0px 8% 90px 8%;
+        padding: 0px 8% 20px 8%;
     }
+    .contactContent{
+        width:90%;}
 }
 
 @media only screen and (max-width: 968px) {
     #contact {
-        padding: 0px 45px 70px 45px;
+        padding: 0px 45px 40px 45px;
+    }
+    .contactContent{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    .contactContent{
+        width: 80%;
+        padding: 20px;
+        grid-template-columns: auto  ;
+        justify-content: center;
     }
 }
 
 @media only screen and (max-width: 500px) {
     #contact {
-        padding: 0px 66px 60px 66px;
+        padding: 0px 20px 40px 20px;
+    }
+    .contactContent{
+        width: 100%;
+        padding: 20px;
     }
 }
