@@ -1,6 +1,10 @@
 #projects{
     width: 100%;
     padding: 0px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
 }
 
 .lightProjects{
@@ -11,6 +15,103 @@
     background-color: #141D2F;
 }
 
+.projectsContent{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto ;    
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.projectDiv{
+    width:100% ;
+    border: solid 2px rgb(177, 176, 176);
+    border-radius: 35px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.projectImg{
+    width: 100%;
+    height: 290px;
+}
+
+.projectImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.projectTools{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 5px;
+}
+
+.darkProjectName{
+    color: white;
+}
+
+.Tools{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.Tools img {
+    width: 30px;
+    height: 30px;
+}
+
+.ProjectDisplay{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+
+.lightProjectDisplayBtn{
+    width: 110px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: solid 2px #383737;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.darkProjectDisplayBtn{
+    width: 100px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: solid 2px #777676;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(187, 185, 185);
+}
+
+.lightProjectDisplayBtn:hover{
+    background-color: #383737;
+    color: white;
+}
+
+.darkProjectDisplayBtn:hover{
+    background-color: #233352;
+    border: solid 2px #233352;
+
+}
 
 @media only screen and (max-width: 1024px) {
     #projects{
@@ -22,10 +123,18 @@
     #projects {
         padding: 0px 45px;
     }
+    .projectsContent{
+        width: 100%;
+        grid-template-columns: auto  ;  
+        padding: 0px;
+    }
+    .projectDiv{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 500px) {
     #projects {
-        padding: 0px 66px;
+        padding: 0px 20px;
     }
 }
