@@ -19,6 +19,7 @@ import VSC from "../../../public/images/ExperincePage/VSC.svg"
 import Figma from "../../../public/images/ExperincePage/figma.svg"
 import MSOffice from "../../../public/images/ExperincePage/microsoft-office.svg"
 import Certificate from "../../../public/images/ExperincePage/certificate.jpeg"
+import Canva from "../../../public/images/ExperincePage/canva.svg"
 
 function Experiance() {
     const passevedValues = useContext(ThemeContext)
@@ -131,11 +132,17 @@ function Experiance() {
     {
         id : 15  ,
         image: Figma,
-        title: "Figm" ,
+        title: "Figma" ,
         level: "Experienced"
     },
     {
         id : 16  ,
+        image: Canva,
+        title: "Canva" ,
+        level: "Experienced"
+    },
+    {
+        id : 17  ,
         image: MSOffice,
         title: "MS Office" ,
         level: "Experienced"
