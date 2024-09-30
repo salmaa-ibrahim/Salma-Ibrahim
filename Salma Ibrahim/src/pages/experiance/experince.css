@@ -197,7 +197,9 @@ color: #909092;
     .CoursesIconDiv{
         width: 90%;
     }
-    
+    .lightCourseName , .darkCourseName{
+        font-size: 15px;
+        }
 }
 
 /* @media only screen and (max-width: 475px) {
