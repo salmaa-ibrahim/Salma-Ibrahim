@@ -73,19 +73,19 @@ function Experiance() {
         id : 5 ,
         image: WebFundamental,
         title: "Web Fundamentals",
-        level: "Experienced"
+        level: "Intermediate"
     },
     {
         id :6  ,
         image: APIs,
         title: "APIs",
-        level: "Experienced"
+        level: "Basics"
     },
     {
         id :7  ,
         image: JSON,
         title: "JSON",
-        level: "Experienced"
+        level: "Basics"
     },
     {
         id : 8 ,
@@ -97,49 +97,49 @@ function Experiance() {
         id : 9 ,
         image: CleanCode,
         title: "Clean Code",
-        level: "Experienced"
+        level: "Advanced"
     },
     {
         id : 10 ,
         image: GraphicDesign,
         title: "Graphic Design",
-        level: "Experienced"
+        level: "Basics"
     },
     {
         id :  11,
         image: ProblemSolving,
         title: "Problem Solving",
-        level: "Experienced"
+        level: "Basics"
     },
     {
         id : 12 ,
         image: Networks,
         title: "Networks",
-        level: "Experienced"
+        level: "Basics"
     },
     {
         id : 13  ,
         image: Cpp,
         title: "C++",
-        level: "Experienced"
+        level: "Basics"
     },
     {
         id : 14  ,
         image: VSC,
         title: "VSC" ,
-        level: "Experienced"
+        level: "Advanced"
     },
     {
         id : 15  ,
         image: Figma,
         title: "Figma" ,
-        level: "Experienced"
+        level: "Advanced"
     },
     {
         id : 16  ,
         image: Canva,
         title: "Canva" ,
-        level: "Experienced"
+        level: "Advanced"
     },
     {
         id : 17  ,
