@@ -80,8 +80,18 @@ li {
     font-size: 18px;
 }
 
+
+
 .darkList a {
     color: white;
+}
+
+.darkList a:hover {
+    color: rgb(202, 199, 199);
+}
+
+.lightList a:hover {
+    color: rgb(202, 199, 199);
 }
 
 .lightTheme {
