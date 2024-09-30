@@ -194,9 +194,6 @@ function Experiance() {
                                         <div className="CoursesIconDiv">
                                             <img className="courseImg" src={skill.image} alt="" />
                                             <h3 className={passevedValues.theme + "CourseName"}>{skill.title}</h3>
-                                            <div className="EXPIcon">
-                                                <span className={passevedValues.theme + "IconLable2"}>{skill.level}</span>
-                                            </div>
                                         </div>
                                     </div>
                                 </>

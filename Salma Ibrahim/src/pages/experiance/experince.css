@@ -158,11 +158,9 @@ color: #909092;
 
     .ExperinceContentDiv{
         gap: 20px;
-        justify-content: center;
         padding: 20px 0px ;
     }
     .ExperinceIconDiv{
-        /* background-color: rgb(82, 59, 173); */
         width: 90px;
         height: 110px;
         row-gap: 10px;
@@ -195,16 +193,21 @@ color: #909092;
         font-size: 14px;
     }
     .CoursesIconDiv{
-        width: 90%;
+        width: 350px;
+        padding: 10px;
     }
     .lightCourseName , .darkCourseName{
         font-size: 15px;
-        }
+    }
+    
+#TitleDiv button {
+    font-size: 17px;
+}
 }
 
-/* @media only screen and (max-width: 475px) {
+@media only screen and (max-width: 475px) {
     .CoursesIconDiv{
-        width: 370px;
+        width: 320px;
     }
 }
 
@@ -212,5 +215,5 @@ color: #909092;
     .CoursesIconDiv{
         width: 270px;
     }
-} */
+}
 
