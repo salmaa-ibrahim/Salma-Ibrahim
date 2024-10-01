@@ -19,6 +19,7 @@ import VSC from "../../../public/images/ExperincePage/VSC.svg"
 import Figma from "../../../public/images/ExperincePage/figma.svg"
 import MSOffice from "../../../public/images/ExperincePage/microsoft-office.svg"
 import Certificate from "../../../public/images/ExperincePage/certificate.jpeg"
+import Certificate2 from "../../../public/images/ExperincePage/certificate2.jpeg"
 import Canva from "../../../public/images/ExperincePage/canva.svg"
 
 function Experiance() {
@@ -156,7 +157,7 @@ function Experiance() {
         // level: "Advanced"
     },
     {
-        image: Certificate,
+        image: Certificate2,
         title: "Frontend Development Advanced Level",
         // level: "Advanced"
     },
