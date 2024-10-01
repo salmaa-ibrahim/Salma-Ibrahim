@@ -158,7 +158,7 @@ function Experiance() {
     },
     {
         image: Certificate2,
-        title: "Frontend Development Advanced Level",
+        title: "Frontend Development Advanced Level (React.js)",
         // level: "Advanced"
     },
     ]
