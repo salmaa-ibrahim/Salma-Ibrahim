@@ -5,7 +5,7 @@ import About from "../about/about";
 import Experiance from "../experiance/experiance";
 import Projects from "../projects/projects";
 import Contact from "../contact/contact";
-import PersonalImage from "/images/personal imagee.png"
+import PersonalImage from "/images/personal image2.jpeg"
 // import PersonalImage from "../../../public/images/contactPage/personal.jpg"
 import linkedInLogoDarkMood from "/images/linkedinDarkMood.svg"
 import linkedInLogoLightMood from "/images/linkedinLightMood.svg"

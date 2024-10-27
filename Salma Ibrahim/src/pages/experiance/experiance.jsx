@@ -21,6 +21,7 @@ import MSOffice from "../../../public/images/ExperincePage/microsoft-office.svg"
 import Certificate from "../../../public/images/ExperincePage/certificate.jpeg"
 import Certificate2 from "../../../public/images/ExperincePage/certificate2.jpeg"
 import Canva from "../../../public/images/ExperincePage/canva.svg"
+import cisco from "../../../public/images/ExperincePage/cisco-svgrepo-com.svg"
 
 function Experiance() {
     const passevedValues = useContext(ThemeContext)
@@ -148,6 +149,12 @@ function Experiance() {
         title: "MS Office" ,
         level: "Experienced"
     },
+    {
+        id : 178 ,
+        image: cisco,
+        title: "cisco" ,
+        level: "Basics"
+    }
     ]
 
     const Skills = [
